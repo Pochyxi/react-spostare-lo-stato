@@ -17,7 +17,7 @@ class Figlio extends React.Component {
         return (
             <div className='my-5'>
                 <h2>SONO IL FIGLIO!</h2>
-                <p>Per cambiare lo stato da un figlio ad un genitore, bisogna seguire i seguenti passaggi:</p>
+                <p>Per cambiare lo stato da un figlio a un genitore, bisogna seguire i seguenti passaggi:</p>
                 <ol className='bg-dark text-light'>
                     <li>La prima cosa da fare è creare una funzione nel figlio che richiama la props precedentente passata e cambia lo stato del genitore</li>
                     <p>La funzione cambiaGenitore la trovate nel Figlio riga 10</p>

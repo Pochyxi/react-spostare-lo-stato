@@ -27,6 +27,7 @@ class Genitore extends React.Component {
                 </ol>
                 <h5>Se sono riuscito a cambiare lo stato del genitore comparira qui: {data}</h5>
                 <Figlio cambiaStato={this.cambiaStato} statoGenitore={this.state.el} />
+                <small className="text-danger">by BudkaSplit().reverse()</small>
             </div>
         )
     }
